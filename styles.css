@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    min-height: 100vh;
+}
+
+#styledimg {
+    background-image: url(Mistie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    }
+
+.slackUsername{
+    font-size: large;
+}
+.container{
+    height: 500px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
