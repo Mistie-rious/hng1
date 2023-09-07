@@ -30,7 +30,7 @@
             document.querySelector('[data-testid="currentDayOfTheWeek"]').textContent = currentDayOfWeek;
             
             const currentUTCTimeMilliseconds = currentDate.getTime();
-            document.querySelector('[data-testid="currentUTCTime"]').textContent = currentUTCTimeMilliseconds;
+            document.querySelector('[data-testid="currentUTCTime"]').textContent = `${currentUTCTimeMilliseconds} ms`;
         }
 
         updateCurrentDayAndUTCTime();
